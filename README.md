@@ -1,7 +1,9 @@
 # Licens*le*
+
 A command-line tool for collecting dependency licenses from a project.
 
 ## Installing
+
 `ǹpm i -g licensle`
 
 ## Usage
@@ -17,9 +19,6 @@ Options:
   --no-browser                 prevents the browser from popping open
   -i, --info                   provides information about all direct dependency licenses
   -o, --outputFilePath <path>  specify path and name of the output file
-  -v, --verbose                activate verbose logging 
+  -v, --verbose                activate verbose logging
   -h, --help                   output usage information
 ```
-
-## Maintainer
-- Julian Scheuchenzuber <js@lvl51.de>
