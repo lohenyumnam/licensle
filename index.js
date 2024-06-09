@@ -306,7 +306,7 @@ const LICENSE_FILENAMES = [
         html += `
       <h2>${f["module"]}</h2>
       <p>${f["description"]}</p>
-      <p>${f["type"] ? `<strong>${f["type"]}</strong> - ` : ""}</p>
+      <p>${f["type"] ? `<strong>${f["type"]}</strong>` : ""}</p>
       <pre style="white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;">${licenseText}</pre>
       <hr>
     `;
